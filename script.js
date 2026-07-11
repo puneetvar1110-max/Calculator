@@ -1,6 +1,7 @@
 const number = document.querySelector(".number"); 
 const display = document.querySelector(".display"); 
 const clear = document.querySelector(".clear"); 
+const del = document.querySelector(".del");
 
 number.addEventListener("click", function (e) { 
     // Clear initial 0 or Error before adding new input
@@ -13,13 +14,6 @@ number.addEventListener("click", function (e) {
         display.innerText += e.target.innerText; 
     } 
 
-    // Delete last character
-    if (e.target.innerText === "DEL") { 
-        display.innerText = display.innerText.slice(0, -1); 
-        if (display.innerText === "") { 
-            display.innerText = "0"; 
-        } 
-    } 
 
     // Calculate result
     if (e.target.innerText === "=") { 
@@ -37,4 +31,15 @@ number.addEventListener("click", function (e) {
 // Clear button logic
 clear.addEventListener("click", function () { 
     display.innerText = "0"; 
+});
+
+
+
+
+del.addEventListener("click", function () {
+    display.innerText = display.innerText.slice(0, -1);
+
+    if (display.innerText === "") {
+        display.innerText = "0";
+    }
 });
