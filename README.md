@@ -24,7 +24,7 @@ A clean and responsive calculator built using HTML, CSS, and JavaScript.
 
 ## 🚀 Live Demo
 
-(Add GitHub Pages Link Here)
+https://puneetvar1110-max.github.io/Calculator/
 
 ## 👨‍💻 Author
 
