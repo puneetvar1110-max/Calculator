@@ -20,7 +20,7 @@ A clean and responsive calculator built using HTML, CSS, and JavaScript.
 
 ## 📸 Preview
 
-(Add your project screenshot here)
+![Calculator Preview](calculator-preview.png)
 
 ## 🚀 Live Demo
 
