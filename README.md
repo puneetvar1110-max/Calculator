@@ -1,4 +1,4 @@
-# 🧮 JavaScript Calculator
+# 🧮 Calculator
 
 A clean and responsive calculator built using HTML, CSS, and JavaScript.
 
